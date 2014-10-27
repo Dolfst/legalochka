@@ -74,7 +74,7 @@
 				 <cms:else />
 				    <cms:set my_category='Uncategorised' />
 				</cms:if>
-				<p class="sub"><a href="#"><cms:show my_category /></a> &bull; <cms:date k_pa /> &bull; <a href="#">1 Comment</a></p>
+				<p class="sub"><a href="#"><span class="fui-tag"></span> <cms:show my_category /></a> &bull; <span class="fui-calendar"></span> <cms:date k_pa /> &bull; <a href="#"><span class="fui-bubble"></span> <cms:show k_comments_count /></a></p>
 				<div class="hr dotted clearfix">&nbsp;</div>
 				<!-- Post Image -->
 				<img class="img-rounded img-responsive" alt="" src="<cms:show blog_img />" />
