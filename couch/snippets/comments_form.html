@@ -44,6 +44,7 @@
 					</div>
 				</cms:if>
 			   
+			   <div class="col-xs-6 col-md-3">
 				<cms:if k_logged_out >
 					<p class="comment-input">
 						<cms:input type="text" placeholder="Введите Имя" class="form-control" name="k_author" size="22" tabindex="1" required="1"/>
@@ -65,6 +66,8 @@
 						<a href="<cms:show k_logout_link />" onclick="if( confirm('Вы уверены, что хотите выйти?') ) { return true; } return false;">Выйти &raquo;</a>
 					</p>
 				</cms:if>
+				
+			</div>
 			   
 				<p class="comment-input">
 				
