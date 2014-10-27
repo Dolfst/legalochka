@@ -109,7 +109,7 @@
 				<div class="comment_content"> 
 					<div class="clearfix">
 						<cite class="author_name"><a href=""><cms:show k_comment_author /></a></cite>       
-						<div class="comment-meta commentmetadata"><cms:date k_comment_date format='F j, Y' />/div> 
+						<div class="comment-meta commentmetadata"><cms:date k_comment_date format='F j, Y' /></div> 
 					</div>
 					<div class="comment_text"> 
 						<p><cms:show k_comment /></p> 
