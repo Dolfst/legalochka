@@ -62,13 +62,13 @@
 				<cms:else />
 					<p>
 						Вы вошли как <b><cms:show k_user_title /></b>.
-						<a href="<cms:show k_logout_link />" onclick="if( confirm('Вы уверены, что хотите выйти?') ) { return true; } return false;">Logout &raquo;</a>
+						<a href="<cms:show k_logout_link />" onclick="if( confirm('Вы уверены, что хотите выйти?') ) { return true; } return false;">Выйти &raquo;</a>
 					</p>
 				</cms:if>
 			   
 				<p class="comment-input">
 					<cms:input type="textarea" name="k_comment" style="width:93%" rows="10" cols="10" tabindex="4"
-						validator_msg="required=Пожалуйста, введите что-либо как комментарий"
+						validator_msg="required=Пожалуйста, введите комментарий"
 						required="1" />
 				   
 					<br>
@@ -81,7 +81,7 @@
 
 				<cms:if k_logged_out >
 					<p class="comment-input">
-						<label for="captcha"><small>Пожалуйста, введите это слово в поле ввода внизу</small></label><br>
+						<label for="captcha"><small>Пожалуйста, введите эти символы в поле ввода внизу</small></label><br>
 						<cms:input type="captcha" name="captcha" format='i-r-t' />
 					</p>
 				</cms:if>
