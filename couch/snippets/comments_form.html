@@ -85,13 +85,14 @@
 					</small>
 				</p>
 
-				<cms:if k_logged_out >
+			<div class="col-xs-12 col-md-6">
+				<cms:if k_logged_out class="tooltip-inner" >
 					<p class="comment-input ">
 						<label for="captcha"><small>Пожалуйста, введите эти символы в поле ввода внизу</small></label><br>
-						<cms:input class="tooltip-inner" type="captcha" name="captcha" format='i-r-t' />
+						<cms:input class="form-control" type="captcha" name="captcha" format='i-r-t' />
 					</p>
 				</cms:if>
-
+			</div>
 				<cms:input type="submit" class="btn btn-sm btn-primary" value="Отправить" name="submit"/>
 
 			</cms:if>
