@@ -1,0 +1,41 @@
+<div class="demo-col">
+          <ul class="nav nav-list">
+          <li class="nav-header"></li>
+          
+            <li class="nav-header">Категории<!--Subjects--></li>
+            <cms:folders masterpage='blog.php' >
+            <li>
+              <a href="<cms:show k_folder_link />">
+                <cms:show k_folder_title />
+                <!--<span class="badge pull-right">19</span>-->
+              </a>
+            </li>
+            </cms:folders>
+            
+            <cms:if k_is_page >
+            <li class="divider"></li>
+            <li class="nav-header">Последние новости</li>
+            <cms:pages masterpage='blog.php' limit='4'>
+            <li>
+              <a href="<cms:show k_page_link />">
+                <cms:show k_page_title />
+                <!--<span class="badge pull-right">69</span>-->
+              </a>
+            </li>
+            </cms:pages>
+            </cms:if>
+            
+            <li class="divider"></li>
+            <li class="nav-header">Архив</li>
+            <cms:archives masterpage='blog.php'>
+            <li>
+              <a href="<cms:show k_archive_link />">
+                <cms:date k_archive_date format='F Y' />
+                <!--<span class="badge pull-right">69</span>-->
+              </a>
+            </li>
+            </cms:archives>
+            
+          </ul>
+        </div>
+        
