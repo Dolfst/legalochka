@@ -52,7 +52,7 @@
 					</p>
 
 					<p class="comment-input">
-						<cms:input type="text" placeholder="Введите Email (он не будет показан для всех)" class="form-control" name="k_email" size="22" tabindex="2" validator="email" required="1"/>
+						<cms:input type="text" placeholder="Email (он не будет показан для всех)" class="form-control" name="k_email" size="22" tabindex="2" validator="email" required="1"/>
 						<!--<label for="email"><small>Email * (не будет показан для всех)</small></label>-->
 					</p>
 
@@ -86,9 +86,9 @@
 				</p>
 
 				<cms:if k_logged_out >
-					<p class="comment-input">
+					<p class="comment-input ">
 						<label for="captcha"><small>Пожалуйста, введите эти символы в поле ввода внизу</small></label><br>
-						<cms:input type="captcha" name="captcha" format='i-r-t' />
+						<cms:input class="tooltip-inner" type="captcha" name="captcha" format='i-r-t' />
 					</p>
 				</cms:if>
 
