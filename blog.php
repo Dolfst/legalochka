@@ -90,11 +90,38 @@
 				<p><cms:show blog_con /></p>
 				<!-- Post Links -->
 				<p class="clearfix">
-					<a href="/blog.php" class="btn btn-sm btn-primary" ><span class="fui-arrow-left"></span> Назад в Блог</a>
+					<a href="<cms:link masterpage='blog.php' />" class="btn btn-sm btn-primary" ><span class="fui-arrow-left"></span> Назад в Блог</a>
 				</p>
 			</div>
 			<div class="hr clearfix">&nbsp;</div>
       <cms:embed 'comments_form.html' />
+      
+      <div class="hr dotted clearfix">&nbsp;</div>
+			
+			<cms:if k_comments_count >
+			<ol class="commentlist">
+			  <cms:comments page_id=k_page_id order='asc' >
+				<li class="comment"> 
+				<div class="gravatar"> 
+					<cms:gravatar email="<cms:show k_comments_author_email />" size="60" />
+					<a name="<cms:show k_comment_anchor />">     
+				</div> 
+				<div class="comment_content"> 
+					<div class="clearfix">
+						<cite class="author_name"><a href=""><cms:show k_comment_author /></a></cite>       
+						<div class="comment-meta commentmetadata"><cms:date k_comment_date format='F j, Y'>/div> 
+					</div>
+					<div class="comment_text"> 
+						<p><cms:show k_comment /></p> 
+					</div> 
+				</div> 
+				</li> 
+				</cms:comments>
+			</ol> 
+			<cms:else />
+			Нет комментариев.
+			</cms:if>
+      
     </div>
 
     </div>
