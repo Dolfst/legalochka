@@ -94,9 +94,8 @@
 				</p>
 			</div>
 			<div class="hr clearfix">&nbsp;</div>
+      <cms:embed 'comments_form.html' />
     </div>
-
-    <cms:embed 'comments_form.html' />
 
     </div>
 
