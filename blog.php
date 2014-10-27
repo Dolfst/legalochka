@@ -96,7 +96,7 @@
 			<div class="hr clearfix">&nbsp;</div>
       <cms:embed 'comments_form.html' />
       
-      <div class="hr dotted ">&nbsp;</div>
+      <div class="hr dotted clearfix">&nbsp;</div><br>
 			
 			<cms:if k_comments_count >
 			<ol class="commentlist">
