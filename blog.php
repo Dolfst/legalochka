@@ -119,7 +119,7 @@
 				</cms:comments>
 			</ol> 
 			<cms:else />
-			<h3>Нет комментариев.</h3>
+			<h3><img src="images/icons/button.svg" alt=""> Нет комментариев.</h3>
 			</cms:if>
       
     </div>
