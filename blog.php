@@ -112,7 +112,7 @@
 						<cite class="author_name"><a href=""><cms:show k_comment_author /></a></cite>       
 						<div class="comment-meta commentmetadata"><cms:date k_comment_date format='F j, Y' /></div> 
 					</div>
-					<div class="comment_text"> 
+					<div class="comment_text tooltip-inner"> 
 						<p><cms:show k_comment /></p> 
 					</div> 
 				</div> 
