@@ -99,7 +99,7 @@
       <div class="hr dotted clearfix">&nbsp;</div><br>
 			
 			<cms:if k_comments_count >
-			<h3><img src="images/icons/chat.svg" alt=""> Комментарии</h3>
+			<h3><img src="images/icons/chat.svg" alt=""> Комментарии</h3><br>
 			<ol class="commentlist">
 			  <cms:comments page_id=k_page_id order='asc' >
 				<li class="comment"> 
