@@ -44,21 +44,21 @@
 					</div>
 				</cms:if>
 			   
-			   <div class="col-xs-6 col-md-3">
+			   <div class="col-xs-12 col-md-6">
 				<cms:if k_logged_out >
 					<p class="comment-input">
-						<cms:input type="text" placeholder="Введите Имя" class="form-control" name="k_author" size="22" tabindex="1" required="1"/>
-						<label for="author"><small>Имя *</small></label>
+						<cms:input type="text" placeholder="Введите Имя*" class="form-control" name="k_author" size="22" tabindex="1" required="1"/>
+						<!--<label for="author"><small>Имя *</small></label>-->
 					</p>
 
 					<p class="comment-input">
-						<cms:input type="text" placeholder="Введите Email" class="form-control" name="k_email" size="22" tabindex="2" validator="email" required="1"/>
-						<label for="email"><small>Email * (не будет показан для всех)</small></label>
+						<cms:input type="text" placeholder="Введите Email (он не будет показан для всех)" class="form-control" name="k_email" size="22" tabindex="2" validator="email" required="1"/>
+						<!--<label for="email"><small>Email * (не будет показан для всех)</small></label>-->
 					</p>
 
 					<p class="comment-input">
 						<input type="text" placeholder="Введите сайт" class="form-control" name="k_link" value="http://" size="22" tabindex="3" />
-						<label for="link"><small>Сайт</small></label>
+						<!--<label for="link"><small>Сайт</small></label>-->
 					</p>
 				<cms:else />
 					<p>
