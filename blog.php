@@ -82,7 +82,7 @@
 				<!-- Post Title -->
 				<h3 class="title"><a href="<cms:show k_page_link />"><cms:show k_page_title /></a></h3>
 				<!-- Post Title -->
-				<p class="sub"><a href="#"><cms:show k_page_foldertitle /></a> &bull; <cms:date k_page_date format='jS M, y'/>; <a href="#"><cms:show k_comments_count /></a></p>
+				<p class="sub"><a href="#"><span class="fui-tag"></span> <cms:show k_page_foldertitle /></a> &bull; <span class="fui-calendar"></span> <cms:date k_page_date format='jS M, y'/>; <a href="#"><span class="fui-bubble"></span> <cms:show k_comments_count /></a></p>
 				<div class="hr dotted clearfix">&nbsp;</div>
 				<!-- Post Title -->
 				<img class="img-rounded img-responsive" src="<cms:show blog_img />" alt=""/>
