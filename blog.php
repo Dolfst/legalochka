@@ -107,7 +107,7 @@
 					<cms:gravatar email="<cms:show k_comments_author_email />" size="60" />
 					<a name="<cms:show k_comment_anchor />">     
 				</div> 
-				<div class="comment_content"> 
+				<br><div class="comment_content"> 
 					<div class="clearfix">
 						<cite class="author_name"><a href=""><span class="fui-user"></span> <cms:show k_comment_author /></a></cite>       
 						<div class="comment-meta commentmetadata"><cms:date k_comment_date format='F j, Y' /></div> 
