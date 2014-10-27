@@ -91,11 +91,13 @@
 				<!-- Post Links -->
 				<p class="clearfix">
 					<a href="/blog.php" class="btn btn-sm btn-primary" ><span class="fui-arrow-left"></span> Назад в Блог</a>
-					
 				</p>
 			</div>
 			<div class="hr clearfix">&nbsp;</div>
     </div>
+
+    <cms:embed 'comments_form.html' />
+
     </div>
 
 
