@@ -52,7 +52,7 @@
                         <ul class="nav navbar-nav">               
                           <li ><a href="/">Главная<span class="navbar-unread">1</span></a></li>
                           <li class="active"><a href="#">Блог</a></li>
-                          <li><a href="#">Обо мне</a></li>  
+                          <li><a href="/about.php">Обо мне</a></li>  
                          </ul>            
                         <ul class="nav navbar-nav navbar-right">
                             <li class="dropdown">
@@ -66,7 +66,7 @@
                               <li><a href="#">Полезные ссылки</a></li>
                             </ul>
                           </li>
-                          <li><a href="#"><span class="visible-sm visible-xs">Settings<span class="fui-gear"></span></span><span class="visible-md visible-lg"><span class="fui-gear"></span></span></a></li>
+                          <li><a href="#"><span class="visible-sm visible-xs">Настройки<span class="fui-gear"></span></span><span class="visible-md visible-lg"><span class="fui-gear"></span></span></a></li>
                         </ul>
                       </div><!-- /.navbar-collapse -->
                     </nav><!--End Menu-->
