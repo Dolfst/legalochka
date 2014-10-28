@@ -6095,3 +6095,13 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
 .mal {
   margin-left: 20px !important;
 }
+
+
+
+.login {
+background: url(/images/icons/imac.svg) 0 0 no-repeat;
+background-size: 940px 778px;
+color: #ffffff;
+margin-bottom: 77px;
+padding: 38px 38px 267px;
+position: relative;
