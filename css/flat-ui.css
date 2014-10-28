@@ -6187,3 +6187,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   font-size: 13px;
   margin-top: 15px;
   text-align: center;
+
+div {
+display: block;
+}
