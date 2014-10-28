@@ -66,8 +66,13 @@
 						<a href="<cms:show k_logout_link />" onclick="if( confirm('Вы уверены, что хотите выйти?') ) { return true; } return false;">Выйти &raquo;</a>
 					</p>
 				</cms:if>
-				
-			</div>
+			
+				<cms:if k_logged_out >
+					<p class="comment-input ">
+						<label for="captcha"><small>Пожалуйста, введите эти символы в поле ввода внизу</small></label><br>
+						<cms:input class="form-control" type="captcha" name="captcha" format='i-r-t' />
+					</p>
+				</cms:if>
 			   
 				<p class="comment-input">
 				
@@ -85,13 +90,7 @@
 					</small>
 				</p>
 
-			<div class="col-xs-12 col-md-6">
-				<cms:if k_logged_out >
-					<p class="comment-input ">
-						<label for="captcha"><small>Пожалуйста, введите эти символы в поле ввода внизу</small></label><br>
-						<cms:input class="form-control" type="captcha" name="captcha" format='i-r-t' />
-					</p>
-				</cms:if>
+			
 			
 				<cms:input type="submit" class="btn btn-sm btn-primary" value="Отправить" name="submit"/><br>
 			</div>
